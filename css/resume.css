@@ -219,6 +219,8 @@
 }
 .pro{
     width: 33.3%;
+    padding: 20px;
+    margin: auto;
 }
         /*Portfolio*/
 
@@ -275,7 +277,7 @@
     transform: scale(1.1);
 }
 .portfolio-icon i:hover{
-    color:#fff
+    color:#fff;
 }
 .portfolio-icon i{
     padding: 5px;
@@ -318,11 +320,11 @@
     justify-content: center;
 }
 .project-use{
-    width:10%;
+    
     padding: 20px;
     margin: 20px;
     background-color: #0497ff;
-    border-radius: 30px 0 30px 0 ;
+    border-radius: 30px 15px 30px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
