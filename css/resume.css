@@ -2,15 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
 }
 
-body {
-    font-family: cursive;
-}
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 
 
 .bgimg {
-    background: linear-gradient(#0000000e, #00000004), url(image/123.avif) fixed;
+    background: linear-gradient(#0000000e, #00000004), url(image/background1.jpg) fixed;
     background-size: cover;
 }
 
@@ -62,7 +61,7 @@ body {
 }
 
 .link a:hover {
-    color: #00dfe7;
+    color: hsl(325, 100%, 50%);
 
 }
 
@@ -71,6 +70,11 @@ body {
 
 .home {
     color: #fff;
+}
+
+.color-change {
+    color: hsl(325, 100%, 50%);
+    font-size: 35px;
 }
 
 .container-home {
@@ -96,12 +100,12 @@ body {
     border-radius: 30px 30px 0 30px;
     text-decoration: none;
     color: #fff;
-    background: #090268;
+    background: hsl(325, 100%, 50%);
 }
 
 .cv-home:hover a {
     border: 4px solid #fff;
-    color: #7e9391;
+    color: #0717fc;
 }
 
 .icon-home {
@@ -223,16 +227,17 @@ body {
 
 /*About section*/
 
+.sec-about {
+    padding: 30px;
+}
 
-
-.head-about {
-    font-size: 40px;
+.sec-about h2 {
     text-align: center;
     padding: 10px 20px 30px 20px;
 }
 
-.head-about:hover {
-    color: #00dfe7;
+.sec-about h2:hover {
+    color: hsl(325, 100%, 50%);
 }
 
 .container-about {
@@ -250,22 +255,22 @@ body {
 .image {
     width: 30%;
     padding: 5px;
-    background: #00dfe7;
+    background: url(image/backedu.jpg);
     overflow: hidden;
 }
 
 .image:hover img {
     transition: all 2s;
-    transform: translate(-20px, -20px);
-
+    transform: scale(1.1, 1.1);
 }
+
+/* .zoom:hover {
+    background: #00dfe7;
+    padding: 20px;
+} */
 
 .image img {
     max-width: 100%;
-}
-
-.image:hover {
-    background: #090268;
 }
 
 .content-about {
@@ -273,19 +278,22 @@ body {
     padding: 10px;
 }
 
+
 .details-person {
     padding: 20px 10px;
-    font-size: 20px;
+    font-size: 18px;
+    color: gray;
 }
 
 .details-person span {
-    color: #090268;
+    color: hsl(325, 100%, 50%);
 }
 
 .about-me {
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: start;
+    color: gray;
 }
 
 .col-2-about {
@@ -298,16 +306,16 @@ body {
     width: 50%;
     height: 50vh;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
-    background: linear-gradient(#0f0f0f71,#08000000), url(image/edu.avif);
+    background: linear-gradient(#0f0f0f71, #08000000), url(image/backedu.jpg);
     background-size: cover;
-    color: #f0e9e9d2;
+    color: #fff;
     overflow: hidden;
 }
 
 .hidden {
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -344,7 +352,6 @@ body {
     .content-about {
         width: 100%;
     }
-
 
     .details-person {
         padding: 0;
@@ -447,10 +454,15 @@ body {
 
 .skill-section {
     text-transform: uppercase;
+    padding: 30px;
 }
 
-.class-skill h1 {
+.class-skill h2 {
     text-align: center;
+}
+
+.class-skill h2:hover {
+    color: hsl(325, 100%, 50%);
 }
 
 .class-skill h3 {
@@ -609,10 +621,15 @@ body {
 /*Project section*/
 
 .projects {
-    padding: 50px 0;
+    padding: 30px;
 }
 
-.projects h1,
+.projects h2:hover,
+.h2-mini:hover {
+    color: hsl(325, 100%, 50%);
+}
+
+.projects h2,
 .h2-mini {
     text-align: center;
     margin-bottom: 30px;
@@ -638,9 +655,9 @@ body {
     box-shadow: 0.5px 0.5px 5px 5px #00dfe7;
 }
 
-.project-box:hover{
+.project-box:hover {
     transition: all 1s;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
 
 .project img {
@@ -704,6 +721,7 @@ body {
     box-shadow: 2px 2px 10px 2px #7e9391;
     padding: 10px;
     margin: 10px;
+    height: auto;
 }
 
 .contact-col:hover {
@@ -756,7 +774,7 @@ body {
 
     .contact-col {
         width: 80%;
-        height: 70vh;
+        height: 100vh;
     }
 }
 
@@ -772,7 +790,7 @@ body {
 
     .contact-col {
         width: 33.3%;
-        height: auto;
+        height: 100vh;
     }
 }
 
@@ -788,7 +806,7 @@ body {
 
     .contact-col {
         width: 33.3%;
-        height: auto;
+        height: 50vh;
     }
 }
 

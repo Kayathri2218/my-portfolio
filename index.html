@@ -55,8 +55,10 @@
                 <div class="row-home">
                     <div class="col-home">
                         <h3>Hello</h3>
-                        <h2>I'M Kayathri</h2>
-                        <h1>Frontend developer</h1>
+                        <h4>I'M<span class="color-change"> Kayathri</span></h4>
+                        <h2 class="color-change"><span class="runName"></span></h2>
+                        <!-- 
+                        <h1>Frontend developer</h1> -->
                     </div>
                     <div class="cv-home">
                         <a href="file:///C:/Users/ELCOT/Desktop/HTML/Task%20website/portfolifo%20resume/document/Resume.pdf"
@@ -72,8 +74,9 @@
                                     icon="material-symbols:mail-outline"></iconify-icon></a>
                         </div>
                         <div class="home-link linked">
-                            <a href="https://www.linkedin.com/in/kaya3-kayu-59a58325b" target="_blank"><iconify-icon
-                                    icon="mdi:linkedin"></iconify-icon></a>
+                            <a href="https://www.linkedin.com/in/kaya3-kayu-59a58325b" target="_blank">
+                                <iconify-icon icon="mdi:linkedin"></iconify-icon>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -85,19 +88,21 @@
 
     <section class="sec-about">
         <div class="container-about">
-            <h1 class="head-about">About</h1>
+            <h2>About</h2>
             <div class="row-about">
                 <div class="col-1-about">
                     <div class="image">
-                        <img src="image/me.jpg" alt="image">
+                        <div class="zoom">
+                            <img src="image/me.jpg" alt="image">
+                        </div>
                     </div>
                     <div class="content-about">
                         <div class="details-person">
-                            <h3><span>Name : </span>Kayathri G</h3>
-                            <h3><span>Portflie : </span>Frontend Developer</h3>
-                            <h3><span>Mobile Number : </span>9790434420</h3>
-                            <h3><span>Email :
-                                </span>kaya3kayu2000@gamil.com</h3>
+                            <h4><span>Name : </span>Kayathri G</h4>
+                            <h4><span>Portflie : </span>Frontend Developer</h4>
+                            <h4><span>Mobile Number : </span>9790434420</h4>
+                            <h4><span>Email :
+                                </span>kaya3kayu2000@gamil.com</h4>
                         </div>
                         <div class="about-me">
                             <p>
@@ -141,12 +146,13 @@
 
 
     <!--Skills-->
+
+
     <div class="skill-section">
         <section class="skill-section">
             <div class="width-skill">
                 <div class="class-skill">
-                    <h1>My Skills</h1>
-
+                    <h2>My Skills</h2>
                     <li>
                         <h3>html</h3>
                         <span class="bar"><span class="html"></span></span>
@@ -167,19 +173,16 @@
                         <h3>React Js</h3>
                         <span class="bar"><span class="javascript"></span></span>
                     </li>
-
                 </div>
             </div>
-
         </section>
-
     </div>
 
     <!--Project Section-->
 
     <section class="projects">
-        <h1>My Projects</h1>
-        <h2 class="h2-mini">Main Prject</h2>
+        <h2>My Projects</h2>
+        <h3 class="h2-mini">Main Prject</h3>
         <div class="project-container">
             <div class="project">
                 <div class="project-box">
@@ -192,45 +195,58 @@
                 </div>
             </div>
             <div class="project">
-                <img src="image/project2.png" alt="Project 2">
-                <h3>Happy Holiday</h3>
-                <p>Happy Holiday Typing Game is a fun, interactive game that tests your typing skills.
-                    The game features holiday-themed words and phrases, and users can choose from different
-                    difficulty levels. The game includes a timer and keeps track of your accuracy and typing speed.</p>
-                <a href=" https://kayathri2218.github.io/holiday/" target="_blank">View Project</a>
+                <div class="project-box">
+                    <img src="image/project2.png" alt="Project 2">
+                    <h3>Happy Holiday</h3>
+                    <p>Happy Holiday Typing Game is a fun, interactive game that tests your typing skills.
+                        The game features holiday-themed words and phrases, and users can choose from different
+                        difficulty levels. The game includes a timer and keeps track of your accuracy and typing speed.
+                    </p>
+                    <a href=" https://kayathri2218.github.io/holiday/" target="_blank">View Project</a>
+                </div>
             </div>
             <div class="project">
-                <img src="image/project3.png" alt="Project 2">
-                <h3>Teab</h3>
-                <p>The goal of this project is to create a comprehensive business plan for a new tea shop.
-                    The business plan should include detailed information on all aspects of the business,
-                    including the market analysis, marketing strategy, financial projections, and operations plan.
-                </p>
-                <a href="#" target="_blank">View Project</a>
+                <div class="project-box">
+                    <img src="image/project3.png" alt="Project 2">
+                    <h3>Teab</h3>
+                    <p>The goal of this project is to create a comprehensive business plan for a new tea shop.
+                        The business plan should include detailed information on all aspects of the business,
+                        including the market analysis, marketing strategy, financial projections, and operations plan.
+                    </p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
             </div>
         </div>
-        <h2 class="h2-mini">Mini Project</h2>
+        <h3 class="h2-mini">Mini Project</h3>
         <div class="project-container">
             <div class="project">
-                <img src="image/min1.png" alt="Project 1">
-                <h3>Time Date calculate </h3>
-                <p>The goal of this project is to create a New Year countdown timer that displays the number of days,
-                    hours, minutes, and seconds remaining until the New Year. The countdown timer should be implemented
-                    using JavaScript and displayed on a web page.
-                </p>
-                <a href="https://kayathri2218.github.io/js-distance-date-time/">View Project</a>
+                <div class="project-box">
+                    <img src="image/min1.png" alt="Project 1">
+                    <h3>Time Date calculate </h3>
+                    <p>The goal of this project is to create a New Year countdown timer that displays the number of
+                        days,
+                        hours, minutes, and seconds remaining until the New Year. The countdown timer should be
+                        implemented
+                        using JavaScript and displayed on a web page.
+                    </p>
+                    <a href="https://kayathri2218.github.io/js-distance-date-time/">View Project</a>
+                </div>
             </div>
             <div class="project">
-                <img src="image/mini1.png" alt="Project 2">
-                <h3>Card Create</h3>
-                <p></p>
-                <a href="https://kayathri2218.github.io/js-dom-create-card/">View Project</a>
+                <div class="project-box">
+                    <img src="image/mini1.png" alt="Project 2">
+                    <h3>Card Create</h3>
+                    <p></p>
+                    <a href="https://kayathri2218.github.io/js-dom-create-card/">View Project</a>
+                </div>
             </div>
             <div class="project">
-                <img src="image/mini2.png" alt="Project 2">
-                <h3>Digital Clock</h3>
-                <p></p>
-                <a href=" https://kayathri2218.github.io/js-dom-digit-clock/">View Project</a>
+                <div class="project-box">
+                    <img src="image/mini2.png" alt="Project 2">
+                    <h3>Digital Clock</h3>
+                    <p></p>
+                    <a href=" https://kayathri2218.github.io/js-dom-digit-clock/">View Project</a>
+                </div>
             </div>
     </section>
 
@@ -238,7 +254,7 @@
 
     <section class="contact-sec" id="contact">
         <div class="contact-container">
-            <h1>Contact</h1>
+            <h2>Contact</h2>
             <div class="contact-row">
                 <div class="contact-col">
                     <div class="contact-box">
@@ -287,23 +303,24 @@
         <div class="foot-container">
             <div class="foot-row">
                 <div class="foot-col">
-                    <h2>Designed by KAYATHRI</h2>
+                    <h4>Designed by KAYATHRI</h4>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        const typingEffect = new Typed(".runName", {
+            strings: ["Frontend Developer", "Web Designer"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 100,
+        });
+    </script>
     <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    
 
 </body>
 
