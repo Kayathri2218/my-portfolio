@@ -228,16 +228,14 @@
 /*About section*/
 
 .sec-about {
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px;
 }
 
 .sec-about h2 {
     text-align: center;
     padding: 10px 20px 30px 20px;
-}
-
-.sec-about h2:hover {
-    color: hsl(325, 100%, 50%);
 }
 
 .container-about {
@@ -255,19 +253,17 @@
 .image {
     width: 30%;
     padding: 5px;
-    background: url(image/backedu.jpg);
     overflow: hidden;
 }
 
-.image:hover img {
-    transition: all 2s;
-    transform: scale(1.1, 1.1);
+.image img {
+    box-shadow: 0px 0px 5px 1px #fff;
 }
 
-/* .zoom:hover {
-    background: #00dfe7;
-    padding: 20px;
-} */
+.zoom { 
+    background: linear-gradient(120deg,blue,skyblue);
+    padding: 3px;
+}
 
 .image img {
     max-width: 100%;
@@ -282,7 +278,6 @@
 .details-person {
     padding: 20px 10px;
     font-size: 18px;
-    color: gray;
 }
 
 .details-person span {
@@ -293,7 +288,6 @@
     padding: 10px;
     font-size: 20px;
     text-align: start;
-    color: gray;
 }
 
 .col-2-about {
@@ -405,7 +399,7 @@
 
     .box-education {
         width: 50%;
-        height: 65vh;
+        height: 40vh;
     }
 }
 
@@ -427,7 +421,6 @@
     .image {
         width: 30%;
     }
-
 
     .details-person {
         padding: 20px 10px;
@@ -459,10 +452,6 @@
 
 .class-skill h2 {
     text-align: center;
-}
-
-.class-skill h2:hover {
-    color: hsl(325, 100%, 50%);
 }
 
 .class-skill h3 {
@@ -539,7 +528,7 @@
     }
 
     100% {
-        width: 90%;
+        width: 80%;
     }
 }
 
@@ -569,7 +558,7 @@
     }
 
     100% {
-        width: 100%;
+        width: 60%;
     }
 }
 
@@ -579,7 +568,7 @@
     }
 
     100% {
-        width: 100%;
+        width: 70%;
     }
 }
 
@@ -622,11 +611,6 @@
 
 .projects {
     padding: 30px;
-}
-
-.projects h2:hover,
-.h2-mini:hover {
-    color: hsl(325, 100%, 50%);
 }
 
 .projects h2,
@@ -702,10 +686,6 @@
     padding: 40px 20px 30px 20px;
 }
 
-.contact-container h1:hover {
-    color: #0497ff;
-}
-
 .contact-row {
     display: flex;
     justify-content: center;
@@ -774,7 +754,7 @@
 
     .contact-col {
         width: 80%;
-        height: 100vh;
+        height: 30vh;
     }
 }
 
@@ -790,7 +770,7 @@
 
     .contact-col {
         width: 33.3%;
-        height: 100vh;
+        height: 30vh;
     }
 }
 
