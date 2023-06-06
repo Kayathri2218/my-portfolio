@@ -258,7 +258,7 @@
 
 @media(min-width:320px) {
     .container-about {
-        width: 100%;
+        width: 90%;
         margin: auto;
     }
 
